@@ -47,7 +47,7 @@ Iya.addEventListener("click", function () {
         Image.setAttribute("src", "https://c.tenor.com/57JSPYRo0k8AAAAj/lebaran-selamat-lebaran.gif");
         Text.classList.remove('text-animate');
         void Text.offsetWidth; 
-        Text.innerHTML = "Selamat Hari Raya Idul Fitri 1444 Hijriah";
+        Text.innerHTML = "Selamat Hari Raya Idul Fitri 1444 Hijriah, Mohon Maaf Lahir Dan Batin 🙏🏻";
         Text.classList.add('text-animate');
         Iya.remove();
     }
