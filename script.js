@@ -2,10 +2,6 @@
 const Iya = document.querySelector(".next");
 const Text = document.getElementById("text");
 const Image = document.querySelector("#image-gif");
-window.onload = function() {
-  var audio = new Audio('https://aemt.me/file/4obKOIbOSoq2.mp3');
-  audio.play();
-}
 
 Iya.addEventListener("click", function () {
     Iya.value = parseInt(Iya.value) + 1;
