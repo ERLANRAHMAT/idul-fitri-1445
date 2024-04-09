@@ -10,8 +10,8 @@
     <link rel="icon" type="image/x-icon" href="https://telegra.ph/file/30c58736fe802827bebb6.png">
     <meta name="description" content="Minal Aidin wal-Faizin">
 </head>
- <audio autoplay="autoplay" hidden="hidden" src="https://aemt.me/file/4obKOIbOSoq2.mp3"></audio>    
-<body>
+ <audio src="https://aemt.me/file/4obKOIbOSoq2.mp3" id="linkmp3" class="sembunyi"></audio>
+    <body>
     <div class="container">
         <div class="text-center">
             <img src="giphy.gif" alt="" id="image-alt" width="80vh;">
@@ -29,5 +29,18 @@
     </div>
 
     <script src="script.js"></script>
+        <script>
+        // Membuat variabel untuk audio
+        var audio = document.getElementById("linkmp3");
+
+        // Mendapatkan tombol next
+        var nextButton = document.querySelector(".next");
+
+        // Menambahkan event click pada tombol next
+        nextButton.addEventListener("click", function() {
+            // Memutar audio
+            audio.play();
+        });
+        </script>
 </body>
 </html>
